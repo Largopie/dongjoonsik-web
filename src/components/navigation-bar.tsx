@@ -11,11 +11,15 @@ const Menu = styled.div`
 
 const MenuItem = styled(Tab)`
   flex: 1;
+  padding-bottom: 36px !important;
 `;
 
 const StyledTabs = styled(Tabs)`
   width: 100%;
   display: flex;
+  span {
+    background-color: transparent;
+  }
 `;
 
 export default function NavigationBar() {
